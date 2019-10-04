@@ -68,6 +68,7 @@ font-weight:bold;
   background:url('https://ntnc.org.np/sites/default/files/styles/slider_1920x1024/public/default_images/default-cover_0.jpg?itok=Tps_3S1F') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
+  border-bottom:#e8491d 3px solid;
 }
 
 #hero h1{
