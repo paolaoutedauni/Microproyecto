@@ -1,60 +1,114 @@
-body{margin:0;}
-
-.nombre{
-    font: 51px "Mr De Haviland", cursive;
-    float: left;
-    padding: 2px;
-    color: #F99A8B;
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 80px;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 35px 35px;
-    text-decoration: none;
-    height: 80px;
-    font-family: "Lucida Console", monospace;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
 
-  .hero {
-    background-image: url('https://ntnc.org.np/sites/default/files/styles/slider_1920x1024/public/default_images/default-cover_0.jpg?itok=Tps_3S1F');
-    width: 100%;
-    height: 512px;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*opacity: 0.5;*/
-    margin-top: 80px;
-  }
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+background:#35424a;
+color:#ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom:#e8491d 3px solid;
+}
+
+header a{
+color:#ffffff;
+text-decoration:none;
+text-transform: uppercase;
+font-size:16px;
+}
+
+header li{
+float:left;
+display:inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{
+float:left;
+}
+
+header #branding h1{
+margin:0;
+}
+
+header nav{
+float:right;
+margin-top:10px;
+}
+
+header .highlight, header .current a{
+color:#e8491d;
+font-weight:bold;
+}
+
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+
+/* Hero */
+#hero{
+  min-height:400px;
+  background:url('https://ntnc.org.np/sites/default/files/styles/slider_1920x1024/public/default_images/default-cover_0.jpg?itok=Tps_3S1F') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+#hero h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#hero p{
+  font-size:20px;
+}
 
   .intro{
-      border: 10px #F99A8B;
+      border: 10px solid #F99A8B;
       color: white;
-      position: absolute;
-      top: 40%;
+      float: left;
+      text-align: center;
+      width:30%;
+      margin-left: 35%;
+      margin-top: 35%;
+      /*position: absolute;
+      top: 40%; 
       left: 35%;
       width: 30%;
-      height: 30%;
+      height: 30%;*/
       background-color: #111
+  }
+
+  .portfolio{
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .img-project{
+    text-align: left;
+    width: 50px;
+  }
+
+  .text-project {
+
   }
   
