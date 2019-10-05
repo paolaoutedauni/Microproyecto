@@ -143,6 +143,39 @@ header a:hover {
   margin-top: 10%;
 }
 
+.about {
+  display: flex;
+  flex-flow: column;
+}
+
+.about .photo {
+  align-self: center;
+}
+
+.photo .rounded {
+  align-self: center;
+  border-radius: 50%;
+}
+
+.about .center {
+  align-self: center;
+}
+
+#boxes-abilities {
+  margin-top: 20px;
+}
+
+#boxes-abilities .box-abilities {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes-abilities .box-abilities img {
+  width: 90px;
+}
+
 .project-img {
   border-radius: 25%;
 }
