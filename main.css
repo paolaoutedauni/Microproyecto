@@ -108,6 +108,22 @@ font-weight:bold;
   width:100%;
 }
 
+/* Boxes Abilities*/
+#boxes-abilities{
+  margin-top:20px;
+}
+
+#boxes-abilities .box-abilities{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes-abilities .box-abilities img{
+  width:90px;
+}
+
 .portfolio{
   width:80%;
   margin:auto;
