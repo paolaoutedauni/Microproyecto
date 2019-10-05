@@ -155,6 +155,7 @@ header a:hover {
 .photo .rounded {
   align-self: center;
   border-radius: 50%;
+  height: 500px;
 }
 
 .about .center {
@@ -207,4 +208,9 @@ header a:hover {
 
 #scroll :hover {
   background-color: #555;
+}
+
+.ability-image {
+  width: 100% !important;
+  height: 300px !important;
 }
