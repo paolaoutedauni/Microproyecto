@@ -81,28 +81,39 @@ font-weight:bold;
   font-size:20px;
 }
 
-  .intro{
-      border: 10px solid #F99A8B;
-      color: white;
-      float: left;
-      text-align: center;
-      width:30%;
-      margin-left: 35%;
-      margin-top: 35%;
-      /*position: absolute;
-      top: 40%; 
-      left: 35%;
-      width: 30%;
-      height: 30%;*/
-      background-color: #111
-  }
+/* Secciones */
+#section{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
 
-  .portfolio{
-    margin: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
+#section h1{
+  float:left;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:50%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:100%;
+}
+
+.portfolio{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  display: flex;
+}
 
   .img-project{
     text-align: left;
@@ -110,6 +121,6 @@ font-weight:bold;
   }
 
   .text-project {
-
+    margin-top: 10%;
   }
   
