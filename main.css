@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Global */
@@ -225,4 +225,8 @@ footer {
 }
 a {
   cursor: pointer;
+}
+
+.mansalva {
+  font-family: "Mansalva", cursive !important;
 }
