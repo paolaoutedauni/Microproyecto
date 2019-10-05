@@ -22,3 +22,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function onLinkClick(section) {
+  document.getElementsByName(section)[0].scrollIntoView();
+}
