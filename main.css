@@ -140,6 +140,21 @@ header a:hover {
   border-radius: 50%;
 }
 
-.about .name {
+.about .center {
   align-self: center;
+}
+
+#boxes-abilities {
+  margin-top: 20px;
+}
+
+#boxes-abilities .box-abilities {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes-abilities .box-abilities img {
+  width: 90px;
 }
