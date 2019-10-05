@@ -21,10 +21,10 @@
             <nav>
               <ul>
                 <li class="current"><a href="#home">Home</a></li>
-                <li><a href="#portafolio">PORTAFOLIO</a></li>
-                <li><a href="#acerca">ACERCA DE MI</a></li>
-                <li><a href="#habilidades">HABILIDADES</a></li>
-                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a  onclick="onLinkClick('portafolio')" >PORTAFOLIO</a></li>
+                <li><a onclick="onLinkClick('acerca-mi')" >ACERCA DE MI</a></li>
+                <li><a  onclick="onLinkClick('habilidades')">HABILIDADES</a></li>
+                <li><a  onclick="onLinkClick('contacto')">CONTACTO</a></li>
               </ul>
             </nav>
           </div>
@@ -40,7 +40,7 @@
 
 
       <!--Portafolio --> 
-      <section id="section">
+      <section id="section" name="portafolio">
           <div class="container">
             <h1>Portafolio</h1>
           </div>
@@ -122,7 +122,7 @@
           </div>
       </section>
       
-      <div class = "about">
+      <div class = "about" name="acerca-mi">
       <div class= "photo">
         <img  src="./assets/profile.jpg" alt="people" class="rounded"/>
       </div>
@@ -216,7 +216,7 @@
 
        <!--Abilities --> 
 
-       <section id="section">
+       <section id="section" name="habilidades">
           <div class="container">
             <h1>Habilidades</h1>
           </div>
@@ -243,7 +243,7 @@
         </section>
 
        <!--Contacto --> 
-       <section id="section">
+       <section id="section" name="contacto">
           <div class="container">
             <h1>Contacto</h1>
           </div>

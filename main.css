@@ -210,17 +210,18 @@ header a:hover {
   background-color: #555;
 }
 
-
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
   text-align: center;
 }
-
 
 .ability-image {
   width: 100% !important;
   height: 300px !important;
+}
+a {
+  cursor: pointer;
 }
