@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #FDFFFC;
+  background-color: #fdfffc;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -24,7 +24,7 @@ header {
   color: #FDFFFC;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #E71D36 3px solid;
+  border-bottom: #e71d36 3px solid;
 }
 
 header a {
@@ -55,7 +55,7 @@ header nav {
 
 header .highlight,
 header .current a {
-  color: #E71D36;
+  color: #e71d36;
   font-weight: bold;
 }
 
@@ -67,12 +67,11 @@ header a:hover {
 /* Hero */
 #hero {
   min-height: 400px;
-  background: url('./assets/library.jpg')
-    no-repeat 0 -400px;
+  background-size: cover;
+  background: url("./assets/landscape.jpg") no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
-  border-bottom: #E71D36 3px solid;
-  
+  border-bottom: #e71d36 3px solid;
 }
 
 #hero h1 {
@@ -85,8 +84,8 @@ header a:hover {
   font-size: 20px;
 }
 
-.portafolio{
-  border-radius:0 !important;
+.portafolio {
+  border-radius: 0 !important;
 }
 
 /* Secciones */
@@ -206,7 +205,7 @@ header a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #E71D36;
+  background-color: #e71d36;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -221,7 +220,7 @@ footer {
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #FF9F1C;
+  background-color: #ff9f1c;
   text-align: center;
 }
 
@@ -235,4 +234,8 @@ a {
 
 .mansalva {
   font-family: "Mansalva", cursive !important;
+}
+
+.subtitle {
+  color: #e71d36;
 }
